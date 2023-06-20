@@ -10,7 +10,7 @@ import java.time.ZoneId;
 import java.util.Date;
 import java.util.Locale;
 import java.util.TimeZone;
-
+//Simulación del caso de la implementacion del caso de uso 15 - Rol: AS
 public class DateUtils {
 
     //private static final String FORMAT_DATE="dd-MMM-yyyy,hh:mm aa";

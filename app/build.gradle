@@ -100,5 +100,15 @@ dependencies {
     annotationProcessor 'androidx.lifecycle:lifecycle-compiler:2.4.0'
 
     /*End of ViewModel's dependencies*/
+plugins {
+  id "org.sonarqube" version "4.2.1.3168"
+}
 
+sonarqube {
+  properties {
+    property "sonar.projectKey", "UniExtremadura_examenjunio-AdrianUEx"
+    property "sonar.organization", "uniextremadura"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
+}
 }
